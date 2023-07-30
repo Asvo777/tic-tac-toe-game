@@ -12,3 +12,8 @@ I used:
   <li>Python 3.9.10</li>
   <li>Turtle (module)</li>
 </ul>
+
+## How to Install it
+<b>For Windows:</b>
+- Download the tic-tac-toe.exe and open it.
+
