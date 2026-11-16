@@ -185,7 +185,10 @@ def click(x,y):
   global wait
   if not wait:
     wait = True
-    case_selected(x,y)
+    try:
+      case_selected(x,y)
+    finally:
+      wait = False
   else:
     print("Wait!")
 
