@@ -15,5 +15,22 @@ I used:
 
 ## How to Install it
 <b>For Windows:</b>
-- Download the tic-tac-toe.exe and open it.
+- Download the latest reelase TicTacToe.exe and open it.
+
+or
+
+- Build it yourself:
+1. Clone this repo
+2. In the bash terminal, run:
+
+```bash
+./build.sh
+```
+or
+```bash
+pip install pyinstaller
+pyinstaller --onefile --noconsole --name MyAppName main.py
+```
+
+3. Open /dist/TicTacToe.exe 
 
